@@ -66,3 +66,8 @@ updates:
       - dependency-name: "*"
         update-types:
           ["version-update:semver-major", "version-update:semver-patch"]
+
+  - package-ecosystem: cargo
+    directory: /rust/gbt
+    schedule:
+      interval: daily
